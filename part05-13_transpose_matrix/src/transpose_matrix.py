@@ -13,3 +13,11 @@ if __name__=="__main__":
     mat=[[1,2],[2,1]]
     transpose(mat)
     print(mat)
+    
+# def second_smallest(my_list: list) -> int:
+#     my_list = sorted(my_list)
+#     return my_list[1]
+
+# numbers = [1, 4, 2, 5, 3, 6, 4, 7]
+# print(second_smallest(numbers))
+# print(numbers)
