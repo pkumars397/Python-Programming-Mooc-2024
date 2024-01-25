@@ -39,3 +39,8 @@ def sudoku_grid_correct(sudoku: list):
             if not block_correct(sudoku,row,col):
                 return False
     return True;
+
+a=[1,2,4]
+b=a
+b[0]=20
+print(id(a),id(b),a,b) #same reference both will change.
